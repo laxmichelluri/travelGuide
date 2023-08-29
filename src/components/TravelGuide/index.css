@@ -1,0 +1,30 @@
+.travel-guide-container {
+  min-height: 100vh;
+  background-color: #eef4f7;
+  background-size: cover;
+  padding: 20px;
+}
+.main-headin {
+  color: #334155;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.separator {
+  background-color: #52bbf0;
+  text-align: center;
+  width: 200px;
+}
+.position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.places-list-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0px;
+  list-style-type: none;
+}
